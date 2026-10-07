@@ -1,0 +1,1196 @@
+title Armas Insólitas
+author Spider
+homepage spyder-cripto.github.io
+sprite_size 16
+background_color #eef2f8
+text_color #1f3a63
+again_interval 0.07
+key_repeat_interval 0.15
+text_controls Flechas: mover (o girar). X o espacio: disparar. Z: deshacer. R: reiniciar.
+
+========
+OBJECTS
+========
+
+Background
+#f3e8d0 #dfcca6 #e9dcbe
+1111111111111111
+1000000000200000
+1000000020000000
+1000000000000000
+1000000000020000
+1000000000000200
+1000000000000000
+1000000200000200
+1000200000000000
+1000000000000000
+1000000000000020
+1000000000000000
+1000000000200000
+1000000000000000
+1000000000000000
+1000000000200000
+
+Gun
+transparent
+
+PlayerU
+#1d2b53 #2f6fd6 #f2c79b #ffffff #b9504a #2f6fd6 #f2c14e #7a4a2a
+................
+.....000000.....
+....01111110....
+...0111111110...
+...0111111110...
+...0777777770...
+...0777777770...
+...0222222220...
+....02222220....
+.....000000.....
+...0555555550...
+..020555555020..
+..020555555020..
+...0055555500...
+....05500550....
+....000..000....
+
+PlayerD
+#1d2b53 #2f6fd6 #f2c79b #ffffff #b9504a #2f6fd6 #f2c14e #7a4a2a
+................
+.....000000.....
+....01111110....
+...0111111110...
+...0000000000...
+...0222222220...
+...0230220320...
+...0222222220...
+....02244220....
+.....000000.....
+...0556556550...
+..020555555020..
+..020555555020..
+...0055555500...
+....05500550....
+....000..000....
+
+PlayerL
+#1d2b53 #2f6fd6 #f2c79b #ffffff #b9504a #2f6fd6 #f2c14e #7a4a2a
+................
+.....000000.....
+....01111110....
+...0111111110...
+.000000000000...
+..0222222770....
+..0032222770....
+..0222222770....
+...04422270.....
+....000000......
+....05555550....
+.022055555550...
+..00055555550...
+....05555550....
+....0550550.....
+....000.000.....
+
+PlayerR
+#1d2b53 #2f6fd6 #f2c79b #ffffff #b9504a #2f6fd6 #f2c14e #7a4a2a
+................
+.....000000.....
+....01111110....
+...0111111110...
+...000000000000.
+....0772222220..
+....0772222300..
+....0772222220..
+.....07222440...
+......000000....
+....05555550....
+...055555550220.
+...05555555000..
+....05555550....
+.....0550550....
+.....000.000....
+
+ZombiePlayerU
+#1d2b53 #2f6fd6 #9ccf7a #d8464a #b9504a #2f6fd6 #f2c14e #7a4a2a
+................
+.....000000.....
+....01111110....
+...0111111110...
+...0111111110...
+...0777777770...
+...0777777770...
+...0222222220...
+....02222220....
+.....000000.....
+...0555555550...
+..020555555020..
+..020555555020..
+...0055555500...
+....05500550....
+....000..000....
+
+ZombiePlayerD
+#1d2b53 #2f6fd6 #9ccf7a #d8464a #b9504a #2f6fd6 #f2c14e #7a4a2a
+................
+.....000000.....
+....01111110....
+...0111111110...
+...0000000000...
+...0222222220...
+...0230220320...
+...0222222220...
+....02244220....
+.....000000.....
+...0556556550...
+..020555555020..
+..020555555020..
+...0055555500...
+....05500550....
+....000..000....
+
+ZombiePlayerL
+#1d2b53 #2f6fd6 #9ccf7a #d8464a #b9504a #2f6fd6 #f2c14e #7a4a2a
+................
+.....000000.....
+....01111110....
+...0111111110...
+.000000000000...
+..0222222770....
+..0032222770....
+..0222222770....
+...04422270.....
+....000000......
+....05555550....
+.022055555550...
+..00055555550...
+....05555550....
+....0550550.....
+....000.000.....
+
+ZombiePlayerR
+#1d2b53 #2f6fd6 #9ccf7a #d8464a #b9504a #2f6fd6 #f2c14e #7a4a2a
+................
+.....000000.....
+....01111110....
+...0111111110...
+...000000000000.
+....0772222220..
+....0772222300..
+....0772222220..
+.....07222440...
+......000000....
+....05555550....
+...055555550220.
+...05555555000..
+....05555550....
+.....0550550....
+.....000.000....
+
+ZombieAsleep
+#1d2b53 #5b5b3a #9ccf7a #ffffff #b9504a #8a62c6
+..........33....
+...........3....
+.....0000.33..33
+....011110....3.
+...01111110..33.
+...02222220.....
+...020020020....
+...02222220.....
+....024420......
+.....0000.......
+...05555550.....
+..02055055020...
+..02055555020...
+...005555500....
+....05500550....
+....000..000....
+
+ZombieAwake
+#1d2b53 #5b5b3a #9ccf7a #ffffff #b9504a #8a62c6 #d8464a
+................
+................
+.....0000.......
+....011110......
+...01111110.....
+...02222220.....
+...026026020....
+...02222220.....
+....024420......
+.....0000.......
+..2055555502....
+..2055055502....
+...05555550.....
+...005555500....
+....05500550....
+....000..000....
+
+Werewolf
+#3d2a1f #9b7653 #f2c14e #3d2a1f #ffffff
+................
+..00........00..
+..010......010..
+..0110....0110..
+..011100001110..
+..011111111110..
+.01111111111110.
+.01122111122110.
+.01120111102110.
+.01111133111110.
+..011133331110..
+..011413314110..
+...0111111110...
+....01111110....
+.....000000.....
+................
+
+SnakeHeadU
+#1b5e30 #4cb35f #a8e6a0 #ffffff #d8464a
+................
+................
+......4..4......
+.......44.......
+.....000000.....
+....01111110....
+...0111111110...
+..011111111110..
+..011111111110..
+..010311110310..
+..011222222110..
+..011122221110..
+...0111111110...
+....00000000....
+................
+................
+
+SnakeHeadD
+#1b5e30 #4cb35f #a8e6a0 #ffffff #d8464a
+................
+................
+....00000000....
+...0111111110...
+..011122221110..
+..011222222110..
+..013011113010..
+..011111111110..
+..011111111110..
+...0111111110...
+....01111110....
+.....000000.....
+.......44.......
+......4..4......
+................
+................
+
+SnakeHeadL
+#1b5e30 #4cb35f #a8e6a0 #ffffff #d8464a
+................
+................
+.......00000....
+......0111110...
+.....011131110..
+....0111102110..
+..4.0111112210..
+...40111112210..
+...40111112210..
+..4.0111112210..
+....0111132110..
+.....011101110..
+......0111110...
+.......00000....
+................
+................
+
+SnakeHeadR
+#1b5e30 #4cb35f #a8e6a0 #ffffff #d8464a
+................
+................
+....00000.......
+...0111110......
+..011101110.....
+..0112311110....
+..0122111110.4..
+..01221111104...
+..01221111104...
+..0122111110.4..
+..0112011110....
+..011131110.....
+...0111110......
+....00000.......
+................
+................
+
+SnakeU
+#1b5e30 #4cb35f #a8e6a0 #ffffff #d8464a
+...0111221110...
+...0111221110...
+...0111221110...
+...0111221110...
+...0111221110...
+...0111221110...
+...0111221110...
+...0111221110...
+...0111221110...
+...0111221110...
+...0111221110...
+...0111221110...
+................
+................
+................
+................
+
+SnakeD
+#1b5e30 #4cb35f #a8e6a0 #ffffff #d8464a
+................
+................
+................
+................
+...0111221110...
+...0111221110...
+...0111221110...
+...0111221110...
+...0111221110...
+...0111221110...
+...0111221110...
+...0111221110...
+...0111221110...
+...0111221110...
+...0111221110...
+...0111221110...
+
+SnakeL
+#1b5e30 #4cb35f #a8e6a0 #ffffff #d8464a
+................
+................
+................
+000000000000....
+111111111111....
+111111111111....
+111111111111....
+222222222222....
+222222222222....
+111111111111....
+111111111111....
+111111111111....
+000000000000....
+................
+................
+................
+
+SnakeR
+#1b5e30 #4cb35f #a8e6a0 #ffffff #d8464a
+................
+................
+................
+....000000000000
+....111111111111
+....111111111111
+....111111111111
+....222222222222
+....222222222222
+....111111111111
+....111111111111
+....111111111111
+....000000000000
+................
+................
+................
+
+Water
+#9fd3f0 #ffffff
+0000000000000000
+0000000000000000
+0100001000000000
+0011110000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000010000100
+0000000001111000
+0000000000000000
+0000000000000000
+0000000000000000
+
+FloodingR
+#9fd3f0 #ffffff
+0000000000000000
+0000000000000000
+0100001000000000
+0011110000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000010000100
+0000000001111000
+0000000000000000
+0000000000000000
+0000000000000000
+
+FloodingL
+#9fd3f0 #ffffff
+0000000000000000
+0000000000000000
+0100001000000000
+0011110000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000010000100
+0000000001111000
+0000000000000000
+0000000000000000
+0000000000000000
+
+FloodingU
+#9fd3f0 #ffffff
+0000000000000000
+0000000000000000
+0100001000000000
+0011110000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000010000100
+0000000001111000
+0000000000000000
+0000000000000000
+0000000000000000
+
+FloodingD
+#9fd3f0 #ffffff
+0000000000000000
+0000000000000000
+0100001000000000
+0011110000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000010000100
+0000000001111000
+0000000000000000
+0000000000000000
+0000000000000000
+
+WaterDrown0
+#9fd3f0 #ffffff #ffffff
+0000000000000000
+0000000000000000
+0100001000000000
+0011110000000000
+0000000000000000
+0000000000020000
+0000002222222000
+0000002222020000
+0000222222000000
+0000222222000000
+0000000000000000
+0000000010000100
+0000000001211000
+0000020002220000
+0000020000200000
+0000000000000000
+
+WaterDrown1
+#9fd3f0 #ffffff #ffffff
+0000000000000000
+0000000000000000
+0100001000000000
+0011110000000000
+0000000000000000
+0000000000020000
+0000002222222000
+0000002222020000
+0000222222000000
+0000222222000000
+0000000000000000
+0000000010000100
+0000000001111000
+0000000000000000
+0000000000000000
+0000000000000000
+
+WaterSinking0
+#9fd3f0 #ffffff #6e4129 #b07a46 #d9a66b
+0000000000000000
+0222222222222220
+0244444444444420
+0244444444444420
+0244444444444420
+0244444444444420
+0244444444444420
+0244444444444420
+0244444444444420
+0244444444444420
+0244444444444420
+0244444444444420
+0244444444444420
+0244444444444420
+0222222222222220
+0000000000000000
+
+WaterSinking1
+#9fd3f0 #ffffff #6e4129 #b07a46 #d9a66b
+0000000000000000
+0000000000000000
+0100001000000000
+0012222222222000
+0002444444442000
+0002444444442000
+0002444444442000
+0002444444442000
+0002444444442000
+0002444444442000
+0002444444442000
+0002444444442100
+0002222222222000
+0000000000000000
+0000000000000000
+0000000000000000
+
+WaterSinking2
+#9fd3f0 #ffffff #6e4129 #b07a46 #d9a66b
+0000000000000000
+0000000000000000
+0100001000000000
+0011110000000000
+0000000000000000
+0000022222200000
+0000024444200000
+0000024444200000
+0000024444200000
+0000024444200000
+0000022222200000
+0000000010000100
+0000000001111000
+0000000000000000
+0000000000000000
+0000000000000000
+
+WaterSinking3
+#9fd3f0 #ffffff #6e4129 #b07a46 #d9a66b
+0000000000000000
+0000000000000000
+0100001000000000
+0011110000000000
+0000000000000000
+0000000000000000
+0000000000000000
+0000000220000000
+0000000220000000
+0000000000000000
+0000000000000000
+0000000010000100
+0000000001111000
+0000000000000000
+0000000000000000
+0000000000000000
+
+WaterSinking4
+#9fd3f0 #ffffff #ffffff
+0000000000000000
+0000000000000000
+0100001000000000
+0011110000000000
+0000000000000000
+0000000000020000
+0000002222222000
+0000002222020000
+0000002222000000
+0000002222000000
+0000000000000000
+0000000010000100
+0000000001111000
+0000000000000000
+0000000000000000
+0000000000000000
+
+Crate
+#6e4129 #b07a46 #d9a66b
+................
+.00000000000000.
+.01111111111110.
+.01112222221110.
+.01111222211110.
+.01211122111210.
+.01221111112210.
+.01222111122210.
+.01222111122210.
+.01221111112210.
+.01211122111210.
+.01111222211110.
+.01112222221110.
+.01111111111110.
+.00000000000000.
+................
+
+Wall
+#7086ab #53658b #93a6c8
+2222222222222221
+0000000000000001
+0000000000000001
+0000000000000001
+0000000000000001
+0000000000000001
+0000000000000001
+1111111111111111
+2222222122222222
+0000000100000000
+0000000100000000
+0000000100000000
+0000000100000000
+0000000100000000
+0000000100000000
+1111111111111111
+
+WallL
+transparent
+
+WallR
+transparent
+
+WallU
+transparent
+
+WallD
+transparent
+
+Digit0
+transparent
+
+Digit1
+transparent
+
+Digit2
+transparent
+
+Digit3
+transparent
+
+Digit4
+transparent
+
+Digit5
+transparent
+
+Digit6
+transparent
+
+Digit7
+transparent
+
+Digit8
+transparent
+
+Digit9
+transparent
+
+previousHead
+transparent
+
+previousCollision
+transparent
+
+Collider
+transparent
+
+GoU
+transparent
+
+GoD
+transparent
+
+GoL
+transparent
+
+GoR
+transparent
+
+Vision
+transparent
+
+LoLevelTarget
+transparent
+
+HiLevelTarget
+transparent
+
+SnakeGun
+transparent
+
+BlowerGun
+transparent
+
+Wind
+transparent
+
+WaterGun
+transparent
+
+canMove
+transparent
+
+recoil
+transparent
+
+previousPosition
+transparent
+
+Winning
+transparent
+
+Cover
+transparent
+
+q
+transparent
+
+i
+transparent
+
+e
+transparent
+
+r
+transparent
+
+t
+transparent
+
+y
+transparent
+
+x
+transparent
+
+u
+transparent
+
+l
+transparent
+
+=======
+LEGEND
+
+=======
+
+WallOutline = WallU or WallD or WallL or WallR
+
+AnyDigit = Digit0 or Digit1 or Digit2 or Digit3 or Digit4 or Digit5 or Digit6 or Digit7 or Digit8 or Digit9
+
+Player = PlayerU or PlayerD or PlayerL or PlayerR
+ZombiePlayer = ZombiePlayerU or ZombiePlayerD or ZombiePlayerL or ZombiePlayerR
+AnyPlayer = Player or ZombiePlayer
+Zombie = ZombieAwake or ZombieAsleep or ZombiePlayer
+Monster = Zombie or Werewolf
+
+SnakeHead = SnakeHeadU or SnakeHeadD or SnakeHeadL or SnakeHeadR
+SnakeBody = SnakeU or SnakeD or SnakeL or SnakeR
+Snake = SnakeHead or SnakeBody
+
+SnakeFood = AnyPlayer or Zombie or Werewolf
+WerewolfFood = AnyPlayer or Zombie
+
+WaterBlocker = Snake or Wall
+Drownable = Player or Werewolf
+Sinking = WaterDrown0 or WaterDrown1 or WaterSinking0 or WaterSinking1 or WaterSinking2 or WaterSinking3 or WaterSinking4
+Flooding = FloodingU or FloodingD or FloodingL or FloodingR
+AnyWater = Water or Sinking
+
+Animation = Flooding or Sinking
+
+NoSnakeBody = AnyPlayer or Zombie or Werewolf or Crate or Wall or SnakeHead
+Obstacle    = AnyPlayer or Zombie or Werewolf or Crate or Wall or SnakeHead or Collider
+Direction = GoU or GoD or GoL or GoR
+
+Pushable = Crate or Zombie
+Pusher = Player or SnakeHead or Pushable
+
+Lines = q or i or e or r or t or y
+Decoration = Gun or Lines or x or u or l
+
+Target = LoLevelTarget or HiLevelTarget
+
+. = Background
+# = Wall
+~ = Water
+p = PlayerD and canMove
+s = PlayerD and SnakeGun and canMove
+o = PlayerD and WaterGun and canMove
+b = PlayerD and BlowerGun and canMove
+Blowable = Crate or Zombie or Werewolf
+z = ZombieAsleep
+w = Werewolf
+g = Gun
+c = Crate
+" = PlayerD and Cover
+
+0 = Wall and Digit0
+1 = Wall and Digit1
+2 = Wall and Digit2
+3 = Wall and Digit3
+4 = Wall and Digit4
+5 = Wall and Digit5
+6 = Wall and Digit6
+7 = Wall and Digit7
+8 = Wall and Digit8
+9 = Wall and Digit9
+
+=======
+SOUNDS
+=======
+
+Player Move 23783707
+Player Create 23783707
+Werewolf Move 23783707
+sfx1 84569108 (death)
+sfx2 27012908 (snake shot)
+sfx3 17311702 (collide)
+sfx4 55941902 (eat)
+sfx5 59606702 (bat)
+sfx6 52112502 (impossible)
+sfx7 89706502 (crowbar)
+sfx8 1782108  (water shot)
+sfx9 59937708 (drown)
+
+================
+COLLISIONLAYERS
+================
+
+Background
+AnyWater Flooding
+SnakeU Decoration
+SnakeL Direction
+SnakeR
+Obstacle
+SnakeD
+WallL Vision Target
+WallR SnakeGun WaterGun BlowerGun
+WallU previousCollision previousPosition
+WallD recoil
+AnyDigit canMove previousHead Cover
+Winning
+Wind
+
+======
+RULES
+======
+
+(Editing convenience: Automatically add outlines to walls)
+([ WallOutline ] -> [ ]
+up   [ Wall | No Wall ] -> [ Wall WallU | ]
+down [ Wall | No Wall ] -> [ Wall WallD | ]
+left [ Wall | No Wall ] -> [ Wall WallL | ]
+right[ Wall | No Wall ] -> [ Wall WallR | ])
+
+(player faces a certain direction)
+[ up    Player no PlayerU ] [ canMove ] -> [ PlayerU ] [ canMove ]
+[ down  Player no PlayerD ] [ canMove ] -> [ PlayerD ] [ canMove ]
+[ left  Player no PlayerL ] [ canMove ] -> [ PlayerL ] [ canMove ]
+[ right Player no PlayerR ] [ canMove ] -> [ PlayerR ] [ canMove ]
+
+(shoot the Snake Gun)
+up    [ action PlayerU | no Wall no Crate ] [ canMove SnakeGun ] -> [ PlayerU recoil | SnakeHeadU ] [ SnakeGun ] sfx2
+down  [ action PlayerD | no Wall no Crate ] [ canMove SnakeGun ] -> [ PlayerD recoil | SnakeHeadD ] [ SnakeGun ] sfx2
+left  [ action PlayerL | no Wall no Crate ] [ canMove SnakeGun ] -> [ PlayerL recoil | SnakeHeadL ] [ SnakeGun ] sfx2
+right [ action PlayerR | no Wall no Crate ] [ canMove SnakeGun ] -> [ PlayerR recoil | SnakeHeadR ] [ SnakeGun ] sfx2
+[ action Player ] [ canMove SnakeGun ] -> [ Player ] [ canMove SnakeGun ] sfx6
+(choose snake direction, when it can't move anymore)
+[ moving Player ] [ SnakeHead previousHead ] -> [ stationary Player ] [ moving SnakeHead previousHead ]
+(snake head moves forwards)
+up    [ stationary SnakeHeadU ] -> [ > SnakeHeadU ]
+down  [ stationary SnakeHeadD ] -> [ > SnakeHeadD ]
+left  [ stationary SnakeHeadL ] -> [ > SnakeHeadL ]
+right [ stationary SnakeHeadR ] -> [ > SnakeHeadR ]
+(BONK!)
+late [ SnakeHead previousHead no previousCollision ] -> [ SnakeHead previousHead previousCollision] sfx3
+late [ SnakeHead no previousHead ] [ previousCollision ] -> [ SnakeHead no previousHead ] [ ]
+(snakes eat things)
+up    [ > SnakeHead | SnakeFood ] -> [ > SnakeHead | no SnakeBody ] sfx4
+down  [ > SnakeHead | SnakeFood ] -> [ > SnakeHead | no SnakeBody ] sfx4
+left  [ > SnakeHead | SnakeFood ] -> [ > SnakeHead | no SnakeBody ] sfx4
+right [ > SnakeHead | SnakeFood ] -> [ > SnakeHead | no SnakeBody ] sfx4
+(remember previous position of snake head)
+[ previousHead ] -> [ ]
+[ SnakeHead ] -> [ SnakeHead previousHead ]
+(set the snake head orientation)
+late up    [ previousHead | SnakeHead ] -> [ previousHead | SnakeHeadU ]
+late down  [ previousHead | SnakeHead ] -> [ previousHead | SnakeHeadD ]
+late left  [ previousHead | SnakeHead ] -> [ previousHead | SnakeHeadL ]
+late right [ previousHead | SnakeHead ] -> [ previousHead | SnakeHeadR ]
+(create the snake body)
+up    [ PlayerU no SnakeU ] [ Snake ] [ SnakeGun ] -> [ PlayerU SnakeU ] [ Snake ] [ SnakeGun ]
+down  [ PlayerD no SnakeD ] [ Snake ] [ SnakeGun ] -> [ PlayerD SnakeD ] [ Snake ] [ SnakeGun ]
+left  [ PlayerL no SnakeL ] [ Snake ] [ SnakeGun ] -> [ PlayerL SnakeL ] [ Snake ] [ SnakeGun ]
+right [ PlayerR no SnakeR ] [ Snake ] [ SnakeGun ] -> [ PlayerR SnakeR ] [ Snake ] [ SnakeGun ]
+late up    [ no SnakeU no AnyPlayer | SnakeHeadU ] -> [ SnakeU | SnakeHeadU ]
+late down  [ no SnakeD no AnyPlayer | SnakeHeadD ] -> [ SnakeD | SnakeHeadD ]
+late left  [ no SnakeL no AnyPlayer | SnakeHeadL ] -> [ SnakeL | SnakeHeadL ]
+late right [ no SnakeR no AnyPlayer | SnakeHeadR ] -> [ SnakeR | SnakeHeadR ]
+(connect the snake body)
+late up    [ SnakeU | no SnakeD no NoSnakeBody ] -> [ SnakeU | SnakeD ]
+late down  [ SnakeD | no SnakeU no NoSnakeBody ] -> [ SnakeD | SnakeU ]
+late left  [ SnakeL | no SnakeR no NoSnakeBody ] -> [ SnakeL | SnakeR ]
+late right [ SnakeR | no SnakeL no NoSnakeBody ] -> [ SnakeR | SnakeL ]
+(make the snake body impassable)
+late [ SnakeBody no Obstacle ] -> [ SnakeBody Collider ]
+
+(recoil)
+[ previousPosition ] -> [ ]
+[ Player ] -> [ Player previousPosition ]
+up    [ stationary PlayerU ] [ recoil ] -> [ < PlayerU ] [ recoil ]
+down  [ stationary PlayerD ] [ recoil ] -> [ < PlayerD ] [ recoil ]
+left  [ stationary PlayerL ] [ recoil ] -> [ < PlayerL ] [ recoil ]
+right [ stationary PlayerR ] [ recoil ] -> [ < PlayerR ] [ recoil ]
+late [ Player previousPosition ] [ recoil ] -> [ Player previousPosition ] [ ]
+
+(flooding animation)
+[ Flooding ] -> [ Water ]
+(shoot the water gun)
+[ action Player ] [ canMove WaterGun ] -> [ action Player ] [ WaterGun ]
+up    [ action PlayerU | no Water ] [ WaterGun ] -> [ PlayerU |   FloodingU ] [ WaterGun ] sfx8
+down  [ action PlayerD | no Water ] [ WaterGun ] -> [ PlayerD |   FloodingD ] [ WaterGun ] sfx8
+left  [ action PlayerL | no Water ] [ WaterGun ] -> [ PlayerL |   FloodingL ] [ WaterGun ] sfx8
+right [ action PlayerR | no Water ] [ WaterGun ] -> [ PlayerR |   FloodingR ] [ WaterGun ] sfx8
+up    [ action PlayerU |    Water ] [ WaterGun ] -> [ PlayerU | > FloodingU ] [ WaterGun ] sfx8
+down  [ action PlayerD |    Water ] [ WaterGun ] -> [ PlayerD | > FloodingD ] [ WaterGun ] sfx8
+left  [ action PlayerL |    Water ] [ WaterGun ] -> [ PlayerL | > FloodingL ] [ WaterGun ] sfx8
+right [ action PlayerR |    Water ] [ WaterGun ] -> [ PlayerR | > FloodingR ] [ WaterGun ] sfx8
+[ action Player ] [ canMove WaterGun ] -> [ Player ] [ canMove WaterGun ] sfx6
+late up    [ PlayerU | no Flooding ] [ WaterGun no canMove ] -> [ PlayerU | Water ] [ WaterGun ] sfx8
+late down  [ PlayerD | no Flooding ] [ WaterGun no canMove ] -> [ PlayerD | Water ] [ WaterGun ] sfx8
+late left  [ PlayerL | no Flooding ] [ WaterGun no canMove ] -> [ PlayerL | Water ] [ WaterGun ] sfx8
+late right [ PlayerR | no Flooding ] [ WaterGun no canMove ] -> [ PlayerR | Water ] [ WaterGun ] sfx8
+late [ Player ] [ no canMove WaterGun ] -> [ Player ] [ canMove WaterGun ]
+[ > Flooding | WaterBlocker ] -> [ Flooding | WaterBlocker ]
+[ > Flooding | stationary Water ] -> [ > Water | > Flooding ]
+(sinking animation)
+[ WaterSinking4 ] -> [ Water ]
+[ WaterSinking3 ] -> [ WaterSinking4 ]
+[ WaterSinking2 ] -> [ WaterSinking3 ]
+[ WaterSinking1 ] -> [ WaterSinking2 ]
+[ WaterDrown1   ] -> [ WaterSinking2 ]
+[ WaterSinking0 ] -> [ WaterSinking1 ]
+[ WaterDrown0   ] -> [ WaterDrown1   ]
+(water interacts with stuff)
+late [ AnyWater Crate     ] -> [ WaterSinking0 ] sfx9
+late [ AnyWater Drownable ] -> [ WaterDrown0   ] sfx9
+late [ AnyWater WaterBlocker ] -> [ WaterBlocker ]
+[ > Water | stationary Zombie ] -> [ > Water | > Zombie ]
+[ > Flooding | stationary Zombie ] -> [ > Flooding | > Zombie ]
+
+(soplador: sopla en línea recta y lo primero que encuentra se mueve una casilla)
+up    [ action PlayerU | no Wall ] [ BlowerGun ] -> [ PlayerU | up    Wind ] [ BlowerGun ]
+down  [ action PlayerD | no Wall ] [ BlowerGun ] -> [ PlayerD | down  Wind ] [ BlowerGun ]
+left  [ action PlayerL | no Wall ] [ BlowerGun ] -> [ PlayerL | left  Wind ] [ BlowerGun ]
+right [ action PlayerR | no Wall ] [ BlowerGun ] -> [ PlayerR | right Wind ] [ BlowerGun ]
+[ > Wind no Obstacle | no Wall ] -> [ | > Wind ]
+[ > Wind Blowable ] -> [ > Blowable ]
+[ Wind ] -> [ ]
+
+(move crates)
+[ > Pusher | stationary Pushable ] -> [ > Pusher | > Pushable ]
+
+(zombies)
+[ PlayerU | ZombieAsleep ] -> [ stationary ZombiePlayerU | ZombieAwake ] sfx1
+[ PlayerD | ZombieAsleep ] -> [ stationary ZombiePlayerD | ZombieAwake ] sfx1
+[ PlayerL | ZombieAsleep ] -> [ stationary ZombiePlayerL | ZombieAwake ] sfx1
+[ PlayerR | ZombieAsleep ] -> [ stationary ZombiePlayerR | ZombieAwake ] sfx1
+
+(werewolves)
+up    [ stationary Werewolf GoU | no Direction ] -> [ > Werewolf | GoU ]
+down  [ stationary Werewolf GoD | no Direction ] -> [ > Werewolf | GoD ]
+left  [ stationary Werewolf GoL | no Direction ] -> [ > Werewolf | GoL ]
+right [ stationary Werewolf GoR | no Direction ] -> [ > Werewolf | GoR ]
+up    [ stationary Werewolf | GoU WerewolfFood ] -> [ > Werewolf | ] sfx1
+down  [ stationary Werewolf | GoD WerewolfFood ] -> [ > Werewolf | ] sfx1
+left  [ stationary Werewolf | GoL WerewolfFood ] -> [ > Werewolf | ] sfx1
+right [ stationary Werewolf | GoR WerewolfFood ] -> [ > Werewolf | ] sfx1
+[ Vision ] -> [ ]
+[ Target ] -> [ ]
+[ stationary Werewolf no Direction | no Obstacle no Vision | ... | WerewolfFood ] -> [ Werewolf | > Vision | ... | WerewolfFood ]
+[ > Vision | no Obstacle no Vision ] -> [ | > Vision ]
+[ > Vision | Zombie ] -> [ > HiLevelTarget | Zombie ]
+[ > Vision | Player ] -> [ > LoLevelTarget | Player ]
+[ no Werewolf | > Target ] -> [ > Target | ]
+up    [ stationary Werewolf | > HiLevelTarget ] -> [ > Werewolf | GoU ]
+down  [ stationary Werewolf | > HiLevelTarget ] -> [ > Werewolf | GoD ]
+left  [ stationary Werewolf | > HiLevelTarget ] -> [ > Werewolf | GoL ]
+right [ stationary Werewolf | > HiLevelTarget ] -> [ > Werewolf | GoR ]
+[ stationary Werewolf no Direction | WerewolfFood ] -> [ > Werewolf | no Direction ] sfx1
+up    [ stationary Werewolf | > LoLevelTarget ] -> [ > Werewolf | GoU ]
+down  [ stationary Werewolf | > LoLevelTarget ] -> [ > Werewolf | GoD ]
+left  [ stationary Werewolf | > LoLevelTarget ] -> [ > Werewolf | GoL ]
+right [ stationary Werewolf | > LoLevelTarget ] -> [ > Werewolf | GoR ]
+
+late [ Player ] -> [ Player Winning ]
+late [ Monster ] [ Winning ] -> [ Monster ] [ ]
+late [ Animation ] [ Winning ] -> [ Animation ] [ ]
+late [ SnakeHead no previousHead ] [ Winning ] -> [ SnakeHead ] [ ]
+late [ Player Gun ] -> Win
+late [ Lines ] -> Win
+
+[]->[] again (let's hope there's no infinite loop)
+
+==============
+WINCONDITIONS
+==============
+
+Some Winning
+
+=======
+LEVELS
+=======
+
+message Es de noche en el almacén...
+message ¡Oh, no! ¡Zombis!
+message Menos mal que tengo una pistola-serpiente.
+
+#######
+#.....#
+#....z#
+#..zc.#
+#.s...#
+#..z..#
+#######
+
+message Solo me queda una serpiente por nivel.
+message Mejor pensar bien desde dónde disparo.
+
+########
+#...z..#
+#.c....#
+#......#
+#.z..s.#
+#..z...#
+#...#z.#
+########
+
+message ¡Oh, no! ¡Hombres lobo!
+message Si me ven, cargan. Que no me vean.
+
+#########
+#.....s.#
+#..c..#.#
+#..wz.#.#
+#..c....#
+#....zw.#
+#....z..#
+#########
+
+message ¡Toma ya, escoria zombi!
+
+#########
+#......z#
+#.....z.#
+#..#..zw#
+#.......#
+#c.z.s..#
+#.......#
+#...#.z.#
+#########
+
+message ¿Y esto? ¿Otra pistola-serpiente?
+message ¡No! ¡Es una pistola de agua!
+message Los hombres lobo no saben nadar.
+
+#######
+#....w#
+#.....#
+#.....#
+#o....#
+#######
+
+message Las cajas se hunden.
+message Y donde se hunde una caja, queda un charco.
+
+#######
+#.o...#
+#.....#
+#.c.w.#
+#...z~#
+#######
+
+message Me pregunto si los zombis saben nadar.
+
+#######
+#oc...#
+#.....#
+#...cw#
+#..z~.#
+##..w.#
+#######
+
+message ¡Toma ya, escoria lobuna!
+
+#######
+#.....#
+#.z.w.#
+#w.c..#
+##..z.#
+#.o...#
+#######
+
+message ¿Un soplador de hojas?
+message Bueno, algo es algo.
+
+#######
+#.....#
+#~c.zw#
+#z..~.#
+#.....#
+#.b...#
+#######
+
+message Un soplido a tiempo vale más que mil balas.
+
+########
+#......#
+#~z...w#
+#z....##
+#...c~.#
+#...b..#
+########
+
+message Ya casi está limpio el almacén.
+
+########
+#b...z.#
+#...z..#
+#~.c...#
+#......#
+#..~.w.#
+#.c#...#
+########
+
+message Solo queda la última nave del almacén.
+
+########
+#b..~..#
+#.~w...#
+#c.....#
+##...~c#
+#.z...z#
+#w.....#
+########
+
+message ¡Almacén limpio!
+message Gracias por jugar.
