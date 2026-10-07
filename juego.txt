@@ -742,6 +742,31 @@ transparent
 Wind
 transparent
 
+SteakGun
+transparent
+
+SteakFlying
+transparent
+
+Steak
+#6e2f1f #e0644f #f7b59a #fff8ec
+................
+................
+.....000000.....
+....01111110....
+...0112211110...
+...0122111110...
+...0111111110...
+...0111111110...
+....01111110....
+.....001100.....
+......0330......
+......0330......
+.....033330.....
+.....033330.....
+......0000......
+................
+
 WaterGun
 transparent
 
@@ -807,7 +832,7 @@ SnakeBody = SnakeU or SnakeD or SnakeL or SnakeR
 Snake = SnakeHead or SnakeBody
 
 SnakeFood = AnyPlayer or Zombie or Werewolf
-WerewolfFood = AnyPlayer or Zombie
+WerewolfFood = AnyPlayer or Zombie or Steak
 
 WaterBlocker = Snake or Wall
 Drownable = Player or Werewolf
@@ -818,7 +843,7 @@ AnyWater = Water or Sinking
 Animation = Flooding or Sinking
 
 NoSnakeBody = AnyPlayer or Zombie or Werewolf or Crate or Wall or SnakeHead
-Obstacle    = AnyPlayer or Zombie or Werewolf or Crate or Wall or SnakeHead or Collider
+Obstacle    = AnyPlayer or Zombie or Werewolf or Crate or Wall or SnakeHead or Collider or Steak
 Direction = GoU or GoD or GoL or GoR
 
 Pushable = Crate or Zombie
@@ -836,6 +861,8 @@ p = PlayerD and canMove
 s = PlayerD and SnakeGun and canMove
 o = PlayerD and WaterGun and canMove
 b = PlayerD and BlowerGun and canMove
+m = PlayerD and SteakGun and canMove
+k = Steak
 Blowable = Crate or Zombie or Werewolf
 z = ZombieAsleep
 w = Werewolf
@@ -883,12 +910,13 @@ SnakeR
 Obstacle
 SnakeD
 WallL Vision Target
-WallR SnakeGun WaterGun BlowerGun
+WallR SnakeGun WaterGun BlowerGun SteakGun
 WallU previousCollision previousPosition
 WallD recoil
 AnyDigit canMove previousHead Cover
 Winning
 Wind
+SteakFlying
 
 ======
 RULES
@@ -1006,6 +1034,17 @@ right [ action PlayerR | no Wall ] [ BlowerGun ] -> [ PlayerR | right Wind ] [ B
 [ > Wind Blowable ] -> [ > Blowable ]
 [ Wind ] -> [ ]
 
+(lanzachuletas: una sola chuleta en juego; si está en el suelo, no se puede lanzar otra, pero se puede recoger pisándola)
+[ action Player ] [ Steak ] [ SteakGun ] -> [ stationary Player ] [ Steak ] [ SteakGun ]
+[ > Player | Steak ] [ SteakGun ] -> [ > Player | ] [ SteakGun ]
+(la chuleta vuela recta hasta chocar y cae en la última casilla libre)
+up    [ action PlayerU | no Obstacle ] [ SteakGun ] -> [ PlayerU | up    SteakFlying ] [ SteakGun ]
+down  [ action PlayerD | no Obstacle ] [ SteakGun ] -> [ PlayerD | down  SteakFlying ] [ SteakGun ]
+left  [ action PlayerL | no Obstacle ] [ SteakGun ] -> [ PlayerL | left  SteakFlying ] [ SteakGun ]
+right [ action PlayerR | no Obstacle ] [ SteakGun ] -> [ PlayerR | right SteakFlying ] [ SteakGun ]
+[ > SteakFlying | no Obstacle ] -> [ | > SteakFlying ]
+[ SteakFlying ] -> [ Steak ]
+
 (move crates)
 [ > Pusher | stationary Pushable ] -> [ > Pusher | > Pushable ]
 
@@ -1029,6 +1068,7 @@ right [ stationary Werewolf | GoR WerewolfFood ] -> [ > Werewolf | ] sfx1
 [ stationary Werewolf no Direction | no Obstacle no Vision | ... | WerewolfFood ] -> [ Werewolf | > Vision | ... | WerewolfFood ]
 [ > Vision | no Obstacle no Vision ] -> [ | > Vision ]
 [ > Vision | Zombie ] -> [ > HiLevelTarget | Zombie ]
+[ > Vision | Steak ] -> [ > HiLevelTarget | Steak ]
 [ > Vision | Player ] -> [ > LoLevelTarget | Player ]
 [ no Werewolf | > Target ] -> [ > Target | ]
 up    [ stationary Werewolf | > HiLevelTarget ] -> [ > Werewolf | GoU ]
@@ -1040,6 +1080,9 @@ up    [ stationary Werewolf | > LoLevelTarget ] -> [ > Werewolf | GoU ]
 down  [ stationary Werewolf | > LoLevelTarget ] -> [ > Werewolf | GoD ]
 left  [ stationary Werewolf | > LoLevelTarget ] -> [ > Werewolf | GoL ]
 right [ stationary Werewolf | > LoLevelTarget ] -> [ > Werewolf | GoR ]
+
+(limpieza: marcas de carga sueltas, solo con el lanzachuletas)
+late [ Direction no Werewolf no WerewolfFood ] [ SteakGun ] -> [ ] [ SteakGun ]
 
 late [ Player ] -> [ Player Winning ]
 late [ Monster ] [ Winning ] -> [ Monster ] [ ]
@@ -1181,7 +1224,7 @@ message Ya casi está limpio el almacén.
 #.c#...#
 ########
 
-message Solo queda la última nave del almacén.
+message ¡El soplador a toda potencia!
 
 ########
 #b..~..#
@@ -1191,6 +1234,59 @@ message Solo queda la última nave del almacén.
 #.z...z#
 #w.....#
 ########
+
+message ¿Y esto? ¿Un lanzachuletas?
+message Los hombres lobo prefieren una buena chuleta a un mozo de almacén.
+message Y siguen sin saber nadar.
+
+########
+#.~...w#
+#..~...#
+#z..m~.#
+#.w....#
+########
+
+message Un lobo con hambre no se para en una sola chuleta.
+
+########
+#.~..z.#
+#~~.w.w#
+#.~m...#
+#....z.#
+#......#
+########
+
+message ¡Hoy hay barbacoa en el almacén!
+
+########
+#.~....#
+#~..m..#
+#.z.~c.#
+#..w#.w#
+#.z.~..#
+########
+
+message Solo puedo tener una chuleta en el suelo.
+message Si nadie se la come, voy y la recojo.
+
+########
+#~.w...#
+#......#
+#~.cm~.#
+#.z..~.#
+#..w.#.#
+########
+
+message Solo queda la última nave del almacén.
+
+#########
+#..z.z~.#
+#w......#
+#....#c.#
+#~...~~.#
+#.m#..~.#
+#c.w....#
+#########
 
 message ¡Almacén limpio!
 message Gracias por jugar.
