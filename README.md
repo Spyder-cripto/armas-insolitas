@@ -28,8 +28,8 @@ propios, cada uno con su mínimo demostrado con las reglas del propio juego. Jue
 8. Marea alta: mínimo 20 pasos
 9. Un soplido: mínimo 6 pasos
 10. Escudo y cebo: mínimo 18 pasos
-11. Viento a favor: mínimo 32 pasos
-12. Huracán: mínimo 34 pasos
+11. Huracán: mínimo 24 pasos
+12. Viento a favor: mínimo 32 pasos
 13. Carne de cañón: mínimo 11 pasos
 14. Todo en cadena: mínimo 12 pasos
 15. La chuleta olvidada: mínimo 16 pasos

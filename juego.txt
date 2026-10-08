@@ -1081,8 +1081,8 @@ down  [ stationary Werewolf | > LoLevelTarget ] -> [ > Werewolf | GoD ]
 left  [ stationary Werewolf | > LoLevelTarget ] -> [ > Werewolf | GoL ]
 right [ stationary Werewolf | > LoLevelTarget ] -> [ > Werewolf | GoR ]
 
-(limpieza: marcas de carga sueltas, solo con el lanzachuletas)
-late [ Direction no Werewolf no WerewolfFood ] [ SteakGun ] -> [ ] [ SteakGun ]
+(limpieza: marcas de carga sueltas)
+late [ Direction no Werewolf no WerewolfFood ] -> [ ]
 
 late [ Player ] -> [ Player Winning ]
 late [ Monster ] [ Winning ] -> [ Monster ] [ ]
@@ -1213,17 +1213,6 @@ message Un soplido a tiempo vale más que mil balas.
 #...b..#
 ########
 
-message Ya casi está limpio el almacén.
-
-########
-#b...z.#
-#...z..#
-#~.c...#
-#......#
-#..~.w.#
-#.c#...#
-########
-
 message ¡El soplador a toda potencia!
 
 ########
@@ -1233,6 +1222,17 @@ message ¡El soplador a toda potencia!
 ##...~c#
 #.z...z#
 #w.....#
+########
+
+message Ya casi está limpio el almacén.
+
+########
+#b...z.#
+#...z..#
+#~.c...#
+#......#
+#..~.w.#
+#.c#...#
 ########
 
 message ¿Y esto? ¿Un lanzachuletas?
