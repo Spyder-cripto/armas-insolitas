@@ -32,9 +32,16 @@ propios, cada uno con su mínimo demostrado con las reglas del propio juego. Jue
 12. Huracán: mínimo 34 pasos
 13. Carne de cañón: mínimo 11 pasos
 14. Todo en cadena: mínimo 12 pasos
-15. Barbacoa: mínimo 23 pasos
-16. A cenar, chuchos: mínimo 25 pasos
-17. La última cena: mínimo 28 pasos
+15. La chuleta olvidada: mínimo 16 pasos
+16. Festín: mínimo 13 pasos
+17. La caja escudo: mínimo 14 pasos
+18. Dos de una tacada: mínimo 15 pasos
+19. Tú de cebo: mínimo 15 pasos
+20. Tres tiros: mínimo 15 pasos
+21. Barbacoa: mínimo 23 pasos
+22. Recoger y repartir: mínimo 24 pasos
+23. A cenar, chuchos: mínimo 25 pasos
+24. La última cena: mínimo 28 pasos
 
 ## Créditos
 - Niveles, soplador, lanzachuletas, arte 16-bit y tarjetas: **Spider** (Fali + Claude), 2026

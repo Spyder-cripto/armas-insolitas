@@ -1256,6 +1256,67 @@ message Un lobo con hambre no se para en una sola chuleta.
 #......#
 ########
 
+message Solo puedo tener una chuleta en el suelo.
+message Y alguien se ha dejado una ahí tirada...
+
+#######
+#....m#
+#k#..~#
+#.w...#
+#....z#
+###...#
+#######
+
+message Este lobo tiene más hambre que yo.
+
+########
+#z...z.#
+#.~..z##
+#.....w#
+#......#
+#m..#.##
+########
+
+message Una caja bien puesta vale por un escudo.
+
+########
+#.....m#
+#.#....#
+#..c...#
+#..w~#.#
+#zz..#.#
+########
+
+message Dos zombis de un solo bocado.
+
+#######
+##...z#
+#.....#
+#.~m..#
+#...w.#
+#...#z#
+#######
+
+message A veces el mejor cebo soy yo.
+
+########
+#......#
+#m#~...#
+#.#.w#.#
+#..w...#
+#.~..z.#
+########
+
+message Tres chuletas, tres finales.
+
+########
+#z#.w..#
+#.w.#~.#
+#...m..#
+#z..~#.#
+#~.....#
+########
+
 message ¡Hoy hay barbacoa en el almacén!
 
 ########
@@ -1266,8 +1327,17 @@ message ¡Hoy hay barbacoa en el almacén!
 #.z.~..#
 ########
 
-message Solo puedo tener una chuleta en el suelo.
 message Si nadie se la come, voy y la recojo.
+
+########
+#m..#.w#
+#~.#...#
+#..k#..#
+#....w~#
+#z.....#
+########
+
+message Ya huele a carne por todo el almacén.
 
 ########
 #~.w...#
