@@ -9,7 +9,7 @@ propios, cada uno con su mínimo demostrado con las reglas del propio juego. Jue
 
 ## Cómo se juega
 - **Objetivo:** acabar con todos los monstruos y seguir vivo.
-- **Flechas:** si no miras hacia ahí, te giras; si ya miras, avanzas. **X / espacio:** disparar. **Z:** deshacer · **R:** reiniciar.
+- **Flechas:** si no miras hacia ahí, te giras; si ya miras, avanzas. **X / espacio:** disparar (en el móvil, **dos toques seguidos sobre el mozo**). **Z:** deshacer · **R:** reiniciar.
 - **Zombis:** duermen, pero si te pones a su lado te muerden. Saben nadar.
 - **Hombres lobo:** ven en línea recta (también a través del agua), cargan hasta chocar y se comen lo que pillan; prefieren zombis y se ahogan en el agua.
 - **Pistola-serpiente:** un disparo; la serpiente avanza recta comiéndose monstruos (¡y a ti!) y luego la diriges; su cuerpo es muro; el disparo te echa un paso atrás.
