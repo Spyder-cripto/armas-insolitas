@@ -12,7 +12,7 @@ propios, cada uno con su mínimo demostrado con las reglas del propio juego. Jue
 - **Flechas:** si no miras hacia ahí, te giras; si ya miras, avanzas. **X / espacio:** disparar (en el móvil, **dos toques seguidos sobre el mozo**). **Z:** deshacer · **R:** reiniciar.
 - **Zombis:** duermen, pero si te pones a su lado te muerden. Saben nadar.
 - **Hombres lobo:** ven en línea recta (también a través del agua), cargan hasta chocar y se comen lo que pillan; prefieren zombis y se ahogan en el agua.
-- **Pistola-serpiente:** un disparo; la serpiente avanza recta comiéndose monstruos (¡y a ti!) y luego la diriges; su cuerpo es muro; el disparo te echa un paso atrás.
+- **Pistola-serpiente:** un disparo; la serpiente avanza recta comiéndose monstruos (¡y a ti!) hasta chocar, y luego la diriges: cada flecha la lanza hasta que vuelve a chocar; su cuerpo es muro; mientras avanza, tú retrocedes casilla a casilla hasta chocar, y tu rastro también es cuerpo.
 - **Pistola de agua:** cada disparo alarga el chorro; ahoga lobos (y a ti), hunde cajas y arrastra zombis.
 - **Soplador:** sopla en línea recta y lo primero que encuentra se mueve una casilla.
 - **Lanzachuletas:** la chuleta vuela recta y cae justo antes de chocar; los hombres lobo la prefieren a ti, cargan a por ella y se quedan donde estaba. Solo una en juego: si nadie se la come, se recoge pisándola.
@@ -57,6 +57,20 @@ propios, cada uno con su mínimo demostrado con las reglas del propio juego. Jue
 34. Saltar la mirada: mínimo 12 pasos
 35. Fuera del rincón: mínimo 17 pasos
 36. El trilero: mínimo 25 pasos
+37. A través del charco: mínimo 25 pasos
+38. Tres tirones: mínimo 30 pasos
+39. Que venga la caja: mínimo 26 pasos
+40. Donde acaba la cena: mínimo 28 pasos
+41. En seco y a flote: mínimo 26 pasos
+42. A la vista: mínimo 25 pasos
+43. Ida y vuelta: mínimo 25 pasos
+44. Las dos orillas: mínimo 28 pasos
+45. Segundo plato: mínimo 36 pasos
+46. La noria: mínimo 28 pasos
+47. A flote: mínimo 28 pasos
+48. Zigzag: mínimo 27 pasos
+49. Las dos del callejón: mínimo 42 pasos
+50. Donde choca: mínimo 25 pasos
 
 ## Créditos
 - Niveles, soplador, lanzachuletas, palanca, lanzacajas, cambiazo, arte 16-bit y tarjetas: **Spider** (Fali + Claude), 2026

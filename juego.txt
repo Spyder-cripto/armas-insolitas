@@ -1673,7 +1673,7 @@ message Un pasillo vigilado. Menos mal que las cajas no tienen ojos.
 #...###
 #######
 
-message Dos lobos, dos cajas y un poco de agua.
+message Dos lobos, tres cajas y un poco de agua.
 
 2########
 #....~w.#
@@ -1722,6 +1722,188 @@ message ¿Dónde está la caja? ¿Y el zombi? ¿Y yo?
 #~..a.#
 #w....#
 #######
+
+message ¿Otra nave del almacén? ¡Y esta es la grande!
+message Aquí cada nivel trae su arma.
+message Esta vez, el soplador.
+
+###########
+#.....#####
+#.###.#####
+#...z.#####
+#.###.#####
+#.###.#####
+#.###.#####
+#b###~w####
+#.~c.~...w#
+###########
+
+message Esta vez, la palanca.
+
+###########
+####w####w#
+#w....c.z.#
+####.#.#~.#
+####c....c#
+####.##.#.#
+##.~z##.~z#
+##.####.###
+##.....f###
+###########
+
+message Esta vez, la pistola del cambiazo.
+
+###########
+###..######
+###....c###
+###a#######
+###.#######
+###z~...c##
+###.#.#####
+#w..~.#####
+###########
+###########
+
+message Esta vez, el lanzachuletas.
+
+###########
+#m..z######
+#.c..######
+#..w.######
+#...z######
+#.##~##zz##
+#....##~.w#
+####.##..##
+####......#
+###########
+
+message Esta vez, el lanzacajas.
+
+#######2###
+#n#########
+#.#########
+#..z...~###
+#.#####.###
+#.#####.###
+#..z....###
+#######.###
+#######w###
+###########
+
+message Esta vez, la pistola de agua.
+
+###########
+#########w#
+#w.c.z....#
+##..#######
+###..o...##
+########c##
+########.##
+########w##
+###########
+
+message Esta vez, la pistola-serpiente.
+
+###########
+#......s.z#
+##.#####.##
+#......#..#
+#.......#.#
+#.........#
+#.#.z..#..#
+#......z.##
+#....#....#
+###########
+
+message Esta vez, la pistola del cambiazo.
+
+###########
+#...~....w#
+#.#####.###
+#.#####z###
+#.#####c###
+#a..~...c.#
+#.######c##
+#.######z##
+#...~....w#
+###########
+
+message Esta vez, el soplador.
+
+###########
+###########
+##b....####
+##.###.####
+##..zz.####
+######.####
+######.####
+######~####
+######.w###
+###########
+
+message Esta vez, la pistola de agua.
+
+###########
+#o..#######
+#.#.#######
+#.#z##w####
+#........##
+###.#######
+###z#######
+#w..#######
+###########
+
+message Esta vez, el lanzachuletas.
+
+###########
+####.######
+#mc...#####
+#..#~..w###
+#.....#####
+#...#~..w##
+#.c....####
+###########
+###########
+###########
+
+message Esta vez, el lanzacajas.
+
+###########
+#n....#####
+#.#.#.#####
+3..z..#####
+#.....#####
+###.#.#####
+###....~###
+#######.###
+#######w###
+###########
+
+message Esta vez, la palanca.
+
+###########
+###c#######
+###c#.....#
+###f#.#~#.#
+##...z..#.#
+##...##.#.#
+##...z..~.#
+##..##..###
+######ww###
+###########
+
+message Esta vez, la pistola-serpiente.
+
+###########
+#........s#
+##.########
+#.....#...#
+###.....#.#
+#....#z...#
+#..z......#
+#z........#
+#.....#...#
+###########
 
 message ¡Almacén limpio! Esta vez, de verdad.
 message Gracias por jugar.
