@@ -21,57 +21,7 @@ propios, cada uno con su mínimo demostrado con las reglas del propio juego. Jue
 - **Cambiazo:** lanza un rayo recto; si da en una caja o en un zombi dormido, os cambiáis de sitio.
 
 ## Niveles
-1. Primer disparo: mínimo 12 pasos
-2. Desde dónde disparar: mínimo 16 pasos
-3. Lobos al acecho: mínimo 20 pasos
-4. La gran serpiente: mínimo 31 pasos
-5. Hombre al agua: mínimo 10 pasos
-6. Caja a pique: mínimo 7 pasos
-7. Chorro a chorro: mínimo 11 pasos
-8. Marea alta: mínimo 20 pasos
-9. Un soplido: mínimo 6 pasos
-10. Escudo y cebo: mínimo 18 pasos
-11. Huracán: mínimo 24 pasos
-12. Viento a favor: mínimo 32 pasos
-13. Carne de cañón: mínimo 11 pasos
-14. Todo en cadena: mínimo 12 pasos
-15. La chuleta olvidada: mínimo 16 pasos
-16. Festín: mínimo 13 pasos
-17. La caja escudo: mínimo 14 pasos
-18. Dos de una tacada: mínimo 15 pasos
-19. Tú de cebo: mínimo 15 pasos
-20. Tres tiros: mínimo 15 pasos
-21. Barbacoa: mínimo 23 pasos
-22. Recoger y repartir: mínimo 24 pasos
-23. A cenar, chuchos: mínimo 25 pasos
-24. La última cena: mínimo 28 pasos
-25. Primer tirón: mínimo 9 pasos
-26. Tira y empuja: mínimo 20 pasos
-27. ¿Quién se lo come?: mínimo 22 pasos
-28. Mudanza: mínimo 30 pasos
-29. Una caja de la nada: mínimo 15 pasos
-30. La primera, de tope: mínimo 17 pasos
-31. Escudo y empujón: mínimo 20 pasos
-32. Doble chapuzón: mínimo 24 pasos
-33. La caja de atrás: mínimo 13 pasos
-34. Saltar la mirada: mínimo 12 pasos
-35. Fuera del rincón: mínimo 17 pasos
-36. El trilero: mínimo 25 pasos
-37. A través del charco: mínimo 25 pasos
-38. Tres tirones: mínimo 30 pasos
-39. Que venga la caja: mínimo 26 pasos
-40. Donde acaba la cena: mínimo 28 pasos
-41. En seco y a flote: mínimo 26 pasos
-42. A la vista: mínimo 25 pasos
-43. Ida y vuelta: mínimo 25 pasos
-44. Las dos orillas: mínimo 28 pasos
-45. Segundo plato: mínimo 36 pasos
-46. La noria: mínimo 28 pasos
-47. A flote: mínimo 28 pasos
-48. Zigzag: mínimo 27 pasos
-49. Las dos del callejón: mínimo 42 pasos
-50. Donde choca: mínimo 25 pasos
-51. Aguita clara del avellano: mínimo 11 pasos
+1. Aguita clara del avellano: mínimo 11 pasos
 
 ## Créditos
 - Niveles, soplador, lanzachuletas, palanca, lanzacajas, cambiazo, arte 16-bit y tarjetas: **Spider** (Fali + Claude), 2026
