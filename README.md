@@ -22,6 +22,7 @@ propios, cada uno con su mínimo demostrado con las reglas del propio juego. Jue
 
 ## Niveles
 1. Aguita clara del avellano: mínimo 21 pasos
+2. Aguita clara del avellano II: sin mínimo conocido
 
 ## Créditos
 - Niveles, soplador, lanzachuletas, palanca, lanzacajas, cambiazo, arte 16-bit y tarjetas: **Spider** (Fali + Claude), 2026
