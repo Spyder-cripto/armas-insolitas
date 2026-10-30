@@ -21,7 +21,7 @@ propios, cada uno con su mínimo demostrado con las reglas del propio juego. Jue
 - **Cambiazo:** lanza un rayo recto; si da en una caja o en un zombi dormido, os cambiáis de sitio.
 
 ## Niveles
-1. Aguita clara del avellano: mínimo 11 pasos
+1. Aguita clara del avellano: mínimo 21 pasos
 
 ## Créditos
 - Niveles, soplador, lanzachuletas, palanca, lanzacajas, cambiazo, arte 16-bit y tarjetas: **Spider** (Fali + Claude), 2026

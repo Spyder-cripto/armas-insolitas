@@ -1347,11 +1347,11 @@ Some Winning
 LEVELS
 =======
 
-message Esta vez, el lanzachuletas.
+
 
 ############
 ####*.....w#
-###..m.....#
+###..p.....#
 ##....c....#
 #..........#
 #..z..z....#
