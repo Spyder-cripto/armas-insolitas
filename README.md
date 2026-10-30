@@ -71,6 +71,7 @@ propios, cada uno con su mínimo demostrado con las reglas del propio juego. Jue
 48. Zigzag: mínimo 27 pasos
 49. Las dos del callejón: mínimo 42 pasos
 50. Donde choca: mínimo 25 pasos
+51. Aguita clara del avellano: mínimo 11 pasos
 
 ## Créditos
 - Niveles, soplador, lanzachuletas, palanca, lanzacajas, cambiazo, arte 16-bit y tarjetas: **Spider** (Fali + Claude), 2026

@@ -926,6 +926,9 @@ transparent
 SwapRay
 transparent
 
+Masacre
+transparent
+
 SwapMark
 transparent
 
@@ -1044,6 +1047,7 @@ o = PlayerD and WaterGun and canMove
 b = PlayerD and BlowerGun and canMove
 m = PlayerD and SteakGun and canMove
 k = Steak
+* = Background and Masacre
 f = PlayerD and CrowbarGun and canMove
 n = PlayerD and CrateGun and canMove
 a = PlayerD and SwapGun and canMove
@@ -1107,6 +1111,7 @@ SteakFlying
 CrateFlying
 Shot
 SwapRay SwapMark
+Masacre
 
 ======
 RULES
@@ -1323,6 +1328,7 @@ right [ stationary Werewolf | > LoLevelTarget ] -> [ > Werewolf | GoR ]
 late [ Direction no Werewolf no WerewolfFood ] -> [ ]
 
 late [ Player ] -> [ Player Winning ]
+late [ Masacre ] -> [ Masacre Winning ]
 late [ Monster ] [ Winning ] -> [ Monster ] [ ]
 late [ Animation ] [ Winning ] -> [ Animation ] [ ]
 late [ SnakeHead no previousHead ] [ Winning ] -> [ SnakeHead ] [ ]
@@ -1904,6 +1910,21 @@ message Esta vez, la pistola-serpiente.
 #z........#
 #.....#...#
 ###########
+
+message Esta vez, el lanzachuletas.
+
+############
+####*.....w#
+###..m.....#
+##....c....#
+#..........#
+#..z..z....#
+#z......z..#
+#z.z.......#
+#.........~#
+#........~~#
+#.....z.~~~#
+############
 
 message ¡Almacén limpio! Esta vez, de verdad.
 message Gracias por jugar.
