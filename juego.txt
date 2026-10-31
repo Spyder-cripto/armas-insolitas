@@ -1347,6 +1347,17 @@ Some Winning
 LEVELS
 =======
 
+message I'm almost out of water!
+
+##########
+#....o...#
+#.....c..#
+#.z...z..#
+#.c...zcz#
+#.z...z..#
+#w.......#
+##########
+
 
 
 ############
@@ -1361,17 +1372,6 @@ LEVELS
 #........~~#
 #.....z.~~~#
 ############
-
-message I'm almost out of water!
-
-##########
-#....o...#
-#.....c..#
-#.z...z..#
-#.c...zcz#
-#.z...z..#
-#w.......#
-##########
 
 message ¡Almacén limpio! Esta vez, de verdad.
 message Gracias por jugar.
