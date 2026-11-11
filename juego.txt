@@ -1350,12 +1350,12 @@ LEVELS
 message I'm almost out of water!
 
 ##########
-#oc..~#..#
-#c.#...###
-#.zz.#zz.#
-#...z.c~##
-#~zz.zz#.#
-#w.~##..##
+#oc..~#z.#
+#cc#.#zz~#
+#..zz#.z##
+#.z..cc~##
+#~zz.zzcc#
+#w.###.c.#
 ##########
 
 
